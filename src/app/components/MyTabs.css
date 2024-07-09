@@ -1,0 +1,24 @@
+.react-tabs__tab {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .react-tabs__tab--selected {
+    background: linear-gradient(to right, #854FF3, #31185F);
+    color: white;
+    
+    border-radius: 30px;
+  }
+  
+  .react-tabs__tab:focus {
+    outline: none;
+  }
+  
+  .react-tabs__tab--selected:focus {
+    box-shadow: 0 0 5px rgba(57, 75, 156, 0.815);
+  }
+  .list {
+    background-color: #31185f11;
+  }

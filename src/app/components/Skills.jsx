@@ -4,7 +4,9 @@ import next from "../../../public/nextjs-icon-svgrepo-com.svg";
 const Skills = () => {
   return (
     <div className="container mx-auto pt-10">
-      <h2 className="text-center text-4xl font-bold"> Skills</h2>
+      <h1 className="text-5xl font-bold text-center bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent">
+        My Skills
+      </h1>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 my-10">
         <div className="hov transition duration-300  hover:bg-[#854FF3] hover:font-bold  bg-[#31185F] text-white  p-2 border-2 rounded-xl">
           <svg

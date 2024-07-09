@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../../../public/modelling-snapshots-narcissistic-self-confident-tanned-attractive-handsome-man-in-classic-suit-jacket-looks-at-camera-posing-isolated-in-over-black-studio-background-fashion-offer-copy-space-for-ad-p.jpg";
+import photo from "../../../public/img.jpg";
 import Image from "next/image";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -64,28 +64,28 @@ const Banner = () => {
           </div>
         </div>
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 my-10">
-          <div className="flex items-center  text-[#8750F7]">
+          <div className="flex items-center justify-center  text-[#8750F7]">
             <h1 className="text-7xl font-bold ">0</h1>
             <p text-xl>
               Years of <br />
               Experience
             </p>
           </div>
-          <div className="flex items-center text-[#8750F7]">
+          <div className="flex items-center justify-center text-[#8750F7]">
             <h1 className="text-7xl font-bold">0+</h1>
             <p text-xl>
               Project <br />
               Completed
             </p>
           </div>
-          <div className="flex items-center text-[#8750F7]">
+          <div className="flex items-center justify-center text-[#8750F7]">
             <h1 className="text-7xl font-bold">0K</h1>
             <p text-xl>
               Happy <br />
               Clients
             </p>
           </div>
-          <div className="flex items-center text-[#8750F7]">
+          <div className="flex items-center justify-center text-[#8750F7]">
             <h1 className="text-7xl font-bold">0</h1>
             <p text-xl>
               Years of <br />

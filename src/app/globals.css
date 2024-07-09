@@ -9,3 +9,12 @@
 .hove:hover p{
     color: white;
 }
+.imghov:hover .over{
+   opacity: 1;
+}
+.imghov:hover .divhov{
+   bottom: 20px;
+}
+.round{
+    border-radius: 10px 10px 10px 100px;
+}

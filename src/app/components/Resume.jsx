@@ -54,7 +54,7 @@ const Resume = () => {
         </div>
         <div>
           {" "}
-          <div className="flex items-center pb-10">
+          <div className="flex md:pt-0 pt-10 items-center pb-10">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
