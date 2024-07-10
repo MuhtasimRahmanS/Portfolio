@@ -14,8 +14,8 @@ import Image from "next/image";
 
 const Testimonials = () => {
   return (
-    <div className=" bg-[#fff2ff] py-20">
-      <div className="container mx-auto lg:flex md:col-span-2">
+    <div className=" bg-[#fff2ff] py-20 ">
+      <div className="container mx-auto lg:flex md:col-span-2 ">
         <div className="lg:w-1/2 w-full">
           <h1 className="text-5xl font-bold text-center bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent">
             My Client&apos;s Stories
