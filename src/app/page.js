@@ -5,6 +5,7 @@ import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Skills></Skills>
       <Work></Work>
       <Testimonials></Testimonials>
+      <Contact></Contact>
     </div>
   );
 }
