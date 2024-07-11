@@ -15,13 +15,13 @@ import Image from "next/image";
 const Testimonials = () => {
   return (
     <div className=" bg-[#fff2ff] py-20 ">
-      <div className="container mx-auto lg:flex md:col-span-2 ">
-        <div className="lg:w-1/2 w-full">
+      <div className="container mx-auto lg:flex md:col-span-2 overflow-hidden">
+        <div className="lg:w-1/2 w-full overflow-hidden">
           <h1
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="100"
-            className="md:text-5xl text-3xl font-bold text-center bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent"
+            className="md:text-5xl overflow-hidden text-3xl font-bold text-center bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent"
           >
             My Client&apos;s Stories
           </h1>
@@ -29,7 +29,7 @@ const Testimonials = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="300"
-            className="w-2/3 py-5 text-center mx-auto"
+            className="w-2/3 py-5 overflow-hidden text-center mx-auto"
           >
             Empowering people in new a digital journey with my super services
           </p>
@@ -38,7 +38,7 @@ const Testimonials = () => {
           data-aos="fade-left"
           data-aos-duration="1200"
           data-aos-delay="400"
-          className="lg:w-1/2 w-full"
+          className="lg:w-1/2 w-ful overflow-hidden"
         >
           <Swiper
             watchSlidesProgress={true}
@@ -57,10 +57,10 @@ const Testimonials = () => {
               },
             }}
             loop={true}
-            className="mySwiper"
+            className="mySwiper overflow-hidden"
           >
             <SwiperSlide>
-              <div className="p-5 mb-5 md:mx-0 mx-5  rounded-xl bg-white m">
+              <div className="p-5 mb-5 md:mx-0 mx-5  overflow-hidden rounded-xl bg-white m">
                 <div className="flex justify-between">
                   <div>
                     {" "}
@@ -85,7 +85,7 @@ const Testimonials = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="p-5 mb-5 md:mx-0 mx-5 rounded-xl bg-white m">
+              <div className="p-5 mb-5 md:mx-0 overflow-hidden mx-5 rounded-xl bg-white m">
                 <div className="flex justify-between">
                   <div>
                     {" "}
@@ -110,7 +110,7 @@ const Testimonials = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="p-5 mb-5 md:mx-0 mx-5 rounded-xl bg-white m">
+              <div className="p-5 mb-5 overflow-hidden md:mx-0 mx-5 rounded-xl bg-white m">
                 <div className="flex justify-between">
                   <div>
                     {" "}
@@ -135,7 +135,7 @@ const Testimonials = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="p-5 mb-5 md:mx-0 mx-5 rounded-xl bg-white m">
+              <div className="p-5 mb-5 overflow-hidden md:mx-0 mx-5 rounded-xl bg-white m">
                 <div className="flex justify-between">
                   <div>
                     {" "}
@@ -160,7 +160,7 @@ const Testimonials = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="p-5 mb-5 md:mx-0 mx-5 rounded-xl bg-white m">
+              <div className="p-5 mb-5 overflow-hidden md:mx-0 mx-5 rounded-xl bg-white m">
                 <div className="flex justify-between">
                   <div>
                     {" "}
@@ -185,7 +185,7 @@ const Testimonials = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="p-5 mb-5 md:mx-0 mx-5 rounded-xl bg-white m">
+              <div className="p-5 mb-5 overflow-hidden md:mx-0 mx-5 rounded-xl bg-white m">
                 <div className="flex justify-between">
                   <div>
                     {" "}

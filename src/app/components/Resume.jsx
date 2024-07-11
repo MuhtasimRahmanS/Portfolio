@@ -3,13 +3,13 @@ import React from "react";
 const Resume = () => {
   return (
     <div className="bg-[#fff2ff] py-20">
-      <div className="md:flex container mx-auto gap-10 justify-evenly">
+      <div className="md:flex container mx-auto gap-10 justify-evenly overflow-hidden">
         <div>
           {" "}
           <div
             data-aos="fade-right"
             data-aos-duration="1000"
-            className="flex items-center pb-10"
+            className="flex items-center pb-10 overflow-hidden"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -25,11 +25,11 @@ const Resume = () => {
                 d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
               />
             </svg>
-            <h1 className="md:text-5xl text-3xl font-bold bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent">
+            <h1 className="md:text-5xl overflow-hidden text-3xl font-bold bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent">
               My Experience
             </h1>
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 overflow-hidden">
             <div
               data-aos="fade-right"
               data-aos-duration="1000"
@@ -81,7 +81,7 @@ const Resume = () => {
           <div
             data-aos="fade-left"
             data-aos-duration="1000"
-            className="flex md:pt-0 pt-10 px-10 items-center  pb-10"
+            className="flex overflow-hidden md:pt-0 pt-10 px-10 items-center  pb-10"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ const Resume = () => {
               My Education
             </h1>
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 overflow-hidden">
             <div
               data-aos="fade-left"
               data-aos-duration="1000"

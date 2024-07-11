@@ -4,17 +4,17 @@ import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
 const Contact = () => {
   return (
-    <div className="bg-[#fff2ff] py-20">
-      <div className="container mx-auto ">
-        <div className="grid grid-cols-1 items-center gap-10 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-100 dark:text-gray-800">
+    <div className="bg-[#fff2ff] py-10 md:py-20">
+      <div className="container overflow-hidden mx-auto ">
+        <div className="items-center overflow-hidden gap-10 px-5 py-6 md:py-16 rounded-lg md:flex md:px-12 lg:px-16 xl:px-32 ">
           <div
             data-aos="fade-right"
             data-aos-duration="1200"
             data-aos-delay="400"
-            className="flex flex-col justify-between bg-white rounded-2xl p-10"
+            className="flex overflow-hidden flex-col justify-between bg-white rounded-2xl md:p-10 p-4"
           >
             <div className="space-y-2">
-              <h1 className="text-5xl font-bold bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent">
+              <h1 className="md:text-5xl text-3xl font-bold bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent">
                 Let’s work together!
               </h1>
               <div className="py-6">
@@ -23,7 +23,7 @@ const Contact = () => {
               </div>
             </div>
             <form noValidate="" className="space-y-6">
-              <div className="flex gap-4">
+              <div className="flex gap-2 md:gap-4">
                 <input
                   id="name"
                   type="text"
@@ -37,7 +37,7 @@ const Contact = () => {
                   className="w-full p-3 rounded-xl bg-[#fff2ff] "
                 />
               </div>
-              <div className="flex gap-4">
+              <div className="flex gap-2 md:gap-4">
                 <input
                   placeholder="Email"
                   id="email"
@@ -67,7 +67,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
-          <div className="pl-10 space-y-10">
+          <div className="pl-10 overflow-hidden md:mt-0 mt-5 space-y-10">
             <div
               data-aos="fade-left"
               data-aos-duration="1200"

@@ -31,7 +31,7 @@ const Skills = () => {
         pauseOnHover={true}
         gradient={false}
         speed={70}
-        className="my-16"
+        className="my-16 overflow-hidden"
       >
         <div className="hov transition duration-300 mr-6 mt-10 hover:bg-[#854FF3] hover:font-bold  text-[#31185F]   p-2 rounded-xl">
           <svg
