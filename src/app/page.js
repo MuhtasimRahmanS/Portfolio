@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Banner from "./components/Banner";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";

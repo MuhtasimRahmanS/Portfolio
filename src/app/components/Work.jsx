@@ -1,9 +1,9 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import img1 from "../../../public/img1.png";
-import img2 from "../../../public/img2.png";
-import img3 from "../../../public/img3.png";
-import img4 from "../../../public/img4.png";
+import img2 from "../../../public/tour.png";
+import img3 from "../../../public/orange.png";
+import img4 from "../../../public/bite.png";
 import "react-tabs/style/react-tabs.css";
 import "./MyTabs.css";
 import WorkCard from "./WorkCard";
@@ -52,15 +52,30 @@ const Work = () => {
   return (
     <div className="bg-[#fff2ff] py-20">
       <div className="container mx-auto">
-        <h1 className="text-5xl font-bold text-center bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+          className="md:text-5xl text-3xl font-bold text-center bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent"
+        >
           My Recent Works
         </h1>
-        <p className="w-2/3 pt-5 text-center mx-auto">
+        <p
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-delay="300"
+          className="w-2/3 pt-5 text-center mx-auto"
+        >
           We put your ideas and thus your wishes in the form of a unique web
           project that inspires you and you customers.
         </p>
         <Tabs>
-          <TabList className="font-semibold text-center pt-10 mb-6">
+          <TabList
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="400"
+            className="font-semibold text-center pt-10 mb-6"
+          >
             <Tab>All Work</Tab>
             <Tab>Portfolio</Tab>
             <Tab>Blog</Tab>

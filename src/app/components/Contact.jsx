@@ -7,7 +7,12 @@ const Contact = () => {
     <div className="bg-[#fff2ff] py-20">
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 items-center gap-10 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-100 dark:text-gray-800">
-          <div className="flex flex-col justify-between bg-white rounded-2xl p-10">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="400"
+            className="flex flex-col justify-between bg-white rounded-2xl p-10"
+          >
             <div className="space-y-2">
               <h1 className="text-5xl font-bold bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent">
                 Let’s work together!
@@ -63,7 +68,12 @@ const Contact = () => {
             </form>
           </div>
           <div className="pl-10 space-y-10">
-            <div className="flex items-center gap-4">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+              className="flex items-center gap-4"
+            >
               <div className="bg-gradient-to-r from-[#854FF3] to-[#31185F] rounded-full p-4">
                 <FiPhoneCall className="text-white text-2xl" />
               </div>
@@ -72,7 +82,12 @@ const Contact = () => {
                 <p className="text-lg font-medium">5465465444534</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1200"
+              data-aos-delay="300"
+              className="flex items-center gap-2"
+            >
               <div className="bg-gradient-to-r from-[#854FF3] to-[#31185F] rounded-full p-4">
                 <MdOutlineEmail className="text-white text-2xl" />
               </div>
@@ -81,7 +96,12 @@ const Contact = () => {
                 <p>5465465444534</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1200"
+              data-aos-delay="400"
+              className="flex items-center gap-2"
+            >
               <div className="bg-gradient-to-r from-[#854FF3] to-[#31185F] rounded-full p-4">
                 <MdOutlineLocationOn className="text-white text-2xl" />
               </div>

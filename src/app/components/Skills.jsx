@@ -11,15 +11,28 @@ const Skills = () => {
     <div className="container mx-auto pt-10">
       <h1
         data-aos="fade-up"
-        className="text-5xl font-bold text-center bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent"
+        data-aos-duration="1200"
+        data-aos-easing="ease-in-out"
+        className="md:text-5xl text-3xl font-bold text-center bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent"
       >
         My Skills
       </h1>
-      <p data-aos="fade-up" className="w-2/3 pt-5 text-center mx-auto">
+      <p
+        data-aos="fade-up"
+        data-aos-duration="1200"
+        data-aos-delay="200"
+        data-aos-easing="ease-in-out"
+        className="w-2/3 pt-5 text-center mx-auto"
+      >
         We put your ideas and thus your wishes in the form of a unique web
         project that inspires you and you customers.
       </p>
-      <Marquee className="my-16">
+      <Marquee
+        pauseOnHover={true}
+        gradient={false}
+        speed={70}
+        className="my-16"
+      >
         <div className="hov transition duration-300 mr-6 mt-10 hover:bg-[#854FF3] hover:font-bold  text-[#31185F]   p-2 rounded-xl">
           <svg
             className="mx-auto my-auto"

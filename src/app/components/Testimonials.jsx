@@ -17,14 +17,29 @@ const Testimonials = () => {
     <div className=" bg-[#fff2ff] py-20 ">
       <div className="container mx-auto lg:flex md:col-span-2 ">
         <div className="lg:w-1/2 w-full">
-          <h1 className="text-5xl font-bold text-center bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent">
+          <h1
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            className="md:text-5xl text-3xl font-bold text-center bg-gradient-to-r from-[#854FF3] to-[#31185F] bg-clip-text text-transparent"
+          >
             My Client&apos;s Stories
           </h1>
-          <p className="w-2/3 py-5 text-center mx-auto">
+          <p
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className="w-2/3 py-5 text-center mx-auto"
+          >
             Empowering people in new a digital journey with my super services
           </p>
         </div>
-        <div className="lg:w-1/2 w-full">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="1200"
+          data-aos-delay="400"
+          className="lg:w-1/2 w-full"
+        >
           <Swiper
             watchSlidesProgress={true}
             pagination={{

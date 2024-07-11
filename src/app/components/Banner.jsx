@@ -11,7 +11,7 @@ const Banner = () => {
       <div className=" py-16 container  mx-auto  ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
-            width={400}
+            width={300}
             className="rounded-xl rotate-6 transition duration-300 hover:rotate-0"
             alt="pic "
             src={photo}
@@ -66,28 +66,28 @@ const Banner = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 my-10">
           <div className="flex items-center justify-center  text-[#8750F7]">
             <h1 className="text-7xl font-bold ">0</h1>
-            <p text-xl>
+            <p className="text-lg font-medium">
               Years of <br />
               Experience
             </p>
           </div>
           <div className="flex items-center justify-center text-[#8750F7]">
             <h1 className="text-7xl font-bold">0+</h1>
-            <p text-xl>
+            <p className="text-lg font-medium">
               Project <br />
               Completed
             </p>
           </div>
           <div className="flex items-center justify-center text-[#8750F7]">
             <h1 className="text-7xl font-bold">0K</h1>
-            <p text-xl>
+            <p className="text-lg font-medium">
               Happy <br />
               Clients
             </p>
           </div>
           <div className="flex items-center justify-center text-[#8750F7]">
             <h1 className="text-7xl font-bold">0</h1>
-            <p text-xl>
+            <p className="text-lg font-medium">
               Years of <br />
               Experience
             </p>
