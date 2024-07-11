@@ -4,7 +4,7 @@ import Skills from "../components/Skills";
 
 const page = () => {
   return (
-    <div>
+    <div className=" my-[8%]">
       <Skills />
     </div>
   );

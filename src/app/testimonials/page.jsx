@@ -4,7 +4,7 @@ import Testimonials from "../components/Testimonials";
 
 const page = () => {
   return (
-    <div>
+    <div className="  py-[5%] bg-[#fff2ff]">
       <Testimonials />
     </div>
   );
